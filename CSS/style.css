@@ -84,3 +84,8 @@ input::placeholder{
 .weather_temperature{
     font-size: 1.75rem;
 }
+
+.weather_minmax{
+    display: flex;
+    justify-content: center;
+}
