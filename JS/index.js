@@ -62,3 +62,9 @@ function convertTimeStamp(timestamp,timezone){
     return date.toLocaleString("en-US", options)
 }
 
+//Convert country code to full name
+function convertCountryCode(country){
+    let regionNames = new Intl.DisplayNames(["en"],{type:"region"});
+    return regionNames.of(country)
+}
+
