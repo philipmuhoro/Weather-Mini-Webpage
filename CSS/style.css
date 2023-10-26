@@ -33,3 +33,7 @@ input{
 input::placeholder{
     color: #fff;
 }
+
+.weather_search{
+    position: relative;
+}
