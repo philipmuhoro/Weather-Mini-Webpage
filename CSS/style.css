@@ -80,3 +80,7 @@ input::placeholder{
 .weather_icon img{
     width: 100px;
 }
+
+.weather_temperature{
+    font-size: 1.75rem;
+}
