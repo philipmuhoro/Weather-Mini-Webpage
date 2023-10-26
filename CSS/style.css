@@ -123,3 +123,6 @@ input::placeholder{
     .container{
         width: 90%;
     }
+    .weather_header{
+        flex-direction: column;
+    }
