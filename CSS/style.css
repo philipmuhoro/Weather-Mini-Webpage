@@ -14,3 +14,9 @@
     margin: 4rem auto;
     border-radius: 10px;
 }
+
+.weather_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
