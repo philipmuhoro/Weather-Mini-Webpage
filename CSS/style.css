@@ -89,3 +89,8 @@ input::placeholder{
     display: flex;
     justify-content: center;
 }
+
+.weather_minmax p{
+    font-size: 14px;
+    margin: 0.5rem;
+}
