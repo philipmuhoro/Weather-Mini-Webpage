@@ -88,3 +88,5 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${curCity}&appid=${API_
 })    
 }
 
+
+document.body.addEventListener('load',getWeather()) 
