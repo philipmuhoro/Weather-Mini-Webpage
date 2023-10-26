@@ -45,3 +45,20 @@ document.querySelector(".weather_unit_farenheit").addEventListener('click', ()=>
         getWeather()
     }
 })
+
+function convertTimeStamp(timestamp,timezone){
+    const convertTimeZone = timezone /3600; //to change the seconds into hours
+    const date = new Date(timestamp*1000);
+    const options = {
+        weekday:"long",
+        day:"numeric",
+        month:"long",
+        year:"numeric",
+        hour:"numeric",
+        minute:"numeric",
+        timezone:`Etc/GMT${convertTimeZone>=0?"-":"+"}${Math.abs(convertTimeZone)}`,
+        hour12:true,
+    }
+    return date.toLocaleString("en-US", options)
+}
+
