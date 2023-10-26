@@ -37,3 +37,11 @@ input::placeholder{
 .weather_search{
     position: relative;
 }
+
+.weather_search i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
