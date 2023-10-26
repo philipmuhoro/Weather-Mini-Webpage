@@ -75,3 +75,8 @@ input::placeholder{
     padding: o.5rem 1rem;
     border-radius: 30px;
 }
+
+
+.weather_icon img{
+    width: 100px;
+}
