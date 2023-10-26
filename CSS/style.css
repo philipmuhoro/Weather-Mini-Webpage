@@ -58,3 +58,8 @@ input::placeholder{
 .weather_units span:first-child{
     margin-right: 0.5rem ;
 }
+
+.weather_body{
+    text-align: center;
+    margin-top: 3rem;
+}
