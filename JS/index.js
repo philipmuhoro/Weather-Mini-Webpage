@@ -26,3 +26,13 @@ document.querySelector(".weather_search").addEventListener('submit', e=>{
     //clear form
     search.value = ""
 })
+
+//convert units
+document.querySelector(".weather_unit_celcius").addEventListener('click', ()=>{
+    if(units!=="metric"){
+        //change to metric
+        units ="metric"
+        //get weather forecast
+        getWeather()
+    }
+})
