@@ -68,3 +68,10 @@ input::placeholder{
     margin-bottom: 2rem;
     font-size: 14px;
 }
+
+.weather_forecast{
+    background-color: #1e1e1e;
+    display: inline-block;
+    padding: o.5rem 1rem;
+    border-radius: 30px;
+}
