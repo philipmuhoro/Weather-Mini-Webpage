@@ -5,3 +5,12 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+
+.container{
+    background-color: #171717;
+    color: #fff;
+    padding: 2em;
+    width: 40%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
