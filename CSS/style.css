@@ -118,3 +118,8 @@ input::placeholder{
 .weather_card p{
     font-size: 14px;
 }
+
+@media(max-width:936px){
+    .container{
+        width: 90%;
+    }
