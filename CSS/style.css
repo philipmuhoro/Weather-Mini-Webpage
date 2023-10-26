@@ -55,3 +55,6 @@ input::placeholder{
     cursor: pointer;
 }
 
+.weather_units span:first-child{
+    margin-right: 0.5rem ;
+}
