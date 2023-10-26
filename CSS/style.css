@@ -126,3 +126,8 @@ input::placeholder{
     .weather_header{
         flex-direction: column;
     }
+    .weather_units{
+        margin-top: 1rem;
+    }
+    
+}
