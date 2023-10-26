@@ -36,3 +36,12 @@ document.querySelector(".weather_unit_celcius").addEventListener('click', ()=>{
         getWeather()
     }
 })
+
+document.querySelector(".weather_unit_farenheit").addEventListener('click', ()=>{
+    if(units!=="imperial"){
+        //change to imperial
+        units ="imperial"
+        //get weather forecast
+        getWeather()
+    }
+})
